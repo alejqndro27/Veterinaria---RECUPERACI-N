@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GENERAR FACTURAS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID Factura"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdFactura"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txtIdMascota"
+        android:hint="ID Mascota"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+         android:inputType="number"
+       android:id="@+id/txtIDDueño"
+       android:hint="ID Dueño"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/txtOrden"
+        android:hint="ID Órden"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtNombreProducto"
+      android:hint="Nombre del producto"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtValor"
+      android:hint="Valor"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCantidad"
+      android:hint="Cantidad"
+      android:gravity="center" />
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtFecha"
+      android:hint="Fecha"
+      android:gravity="center" />
+
+    <Button
+       android:text="Registrar Factura"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+
+    <Button
+       android:text="Consultar Factura"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnConsultar" />
+
+    <Button
+       android:text="Volver al inicio"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+
+</LinearLayout>

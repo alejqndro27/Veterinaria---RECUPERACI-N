@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="GENERAR ÓRDEN "
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+     
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdOrden"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdMascota"
+        android:hint="ID Mascota"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:hint="Cédula del dueño"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCedulaVeterinario"
+        android:hint="Cédula del veterinario"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCeduVeterinario"
+      android:hint="Nombre del medicamento"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="datetime"
+      android:id="@+id/txtFecha"
+      android:hint="Fecha de la historia clínica"
+      android:gravity="center"/>
+
+    <Button
+       android:text="Generar Órden"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+    <Button
+       android:text="Volver al inicio"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+       
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <TextView
+      android:text="ADMINISTRAR USUARIOS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="25dip"
+      android:id="@+id/textView1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCedula"
+        android:hint="Cédula"
+        android:gravity="center"
+        android:layout_marginTop="25dip" />
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtNombre"
+       android:hint="Nombre completo"
+       android:gravity="center"
+       android:layout_marginTop="25dip" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdad"
+        android:hint="Edad"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginTop="25dip" />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtRol"
+      android:hint="Rol"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtPassword"
+      android:hint="Contraseña"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtComPassword"
+      android:hint="Repetir contraseña"
+      android:gravity="center"
+      android:layout_marginTop="25dip" />
+
+    <Button
+       android:text="Registrar usuario"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+
+    <Button
+       android:text="Volver al inicio"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+    
+  
+   
+</LinearLayout>

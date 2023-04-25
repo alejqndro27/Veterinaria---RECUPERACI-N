@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="ADMINISTRAR GATOS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID (NO INGRESAR)"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdGato"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombreGato"
+        android:hint="Nombre de la mascota"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:hint="Cédula del dueño"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdadGato"
+        android:hint="Edad de la mascota"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtEspecieGato"
+      android:hint="Especie del perro"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtRazaGato"
+      android:hint="Raza del perro"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCaracteristicasGato"
+      android:hint="Características del gato"
+      android:gravity="center" />
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtPesoGato"
+      android:hint="Peso"
+      android:gravity="center" />
+
+    <Button
+       android:text="Registrar gato"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+   
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"> 
+
+    <TextView
+      android:text="LOGIN"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="25dip"
+
+      android:id="@+id/textView1" />
+    
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdentificacion"
+        android:hint="Usuario"
+        android:gravity="center"
+        android:layout_marginTop="150dip"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Contraseña"
+        android:password="true"
+        android:gravity="center"
+        android:layout_marginTop="230dip"/>
+
+    <Button
+       android:text="INGRESAR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:layout_marginTop="300dip"
+       android:id="@+id/btnIngresar" 
+    />
+    
+  
+</RelativeLayout>

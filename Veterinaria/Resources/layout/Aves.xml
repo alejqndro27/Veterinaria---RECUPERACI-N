@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <TextView
+      android:text="VENTAS AVES"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/textView1" />
+
+       <EditText
+        android:hint="ID Factura"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dip"
+        android:id="@+id/txtIdAve"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombreAve"
+        android:hint="ID Mascota"
+        android:gravity="center"/>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtCedulaDueño"
+       android:hint="ID Dueño"
+       android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdadAve"
+        android:hint="ID Órden"
+        android:gravity="center"/>
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtEspecieAve"
+      android:hint="Nombre del producto"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtRazaAve"
+      android:hint="Valor"
+      android:gravity="center"/>
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtCaracteristicasAve"
+      android:hint="Cantidad"
+      android:gravity="center" />
+
+     <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtPesoAve"
+      android:hint="Fecha"
+      android:gravity="center" />
+
+    <Button
+       android:text="Registrar Ave"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnRegistrar" />
+    <Button
+       android:text="Consultar Ave"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnConsultar" />
+    <Button
+       android:text="IR AL INICIO"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@android:color/holo_red_light"
+       android:textColor="@android:color/white"
+       android:id="@+id/btnIrInicio" />
+   
+
+</LinearLayout>
